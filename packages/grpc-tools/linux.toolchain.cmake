@@ -24,7 +24,7 @@ IF(UNIX AND NOT APPLE)
     IF(GRPC_TOOLS_TARGET STREQUAL "aarch64")
         SET(CMAKE_COMPILER_PREFIX "aarch64-linux-gnu-")
     ENDIF()
-
+    
     IF(GRPC_TOOLS_TARGET STREQUAL "s390x")
         SET(CMAKE_COMPILER_PREFIX "s390x-linux-gnu-")
 
